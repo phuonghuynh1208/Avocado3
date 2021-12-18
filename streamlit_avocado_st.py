@@ -1,6 +1,5 @@
 
 # pip install pyqt5
-import io
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -21,8 +20,8 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split,cross_val_score
 # import pandas_profiling as pp
 import pickle
-from fbprophet import Prophet 
-from fbprophet.plot import add_changepoints_to_plot
+# from fbprophet import Prophet 
+# from fbprophet.plot import add_changepoints_to_plot
 import plotly.figure_factory as ff
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
